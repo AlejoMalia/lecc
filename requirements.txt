@@ -1,0 +1,6 @@
+Flask==2.3.3
+requests==2.31.0
+paho-mqtt==2.0.0
+smbus2==0.4.3
+pyserial==3.5
+werkzeug==3.0.1
