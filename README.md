@@ -9,12 +9,12 @@ LECC · Linked Electronic Communication Core
 Features
 --------
 
-🌐 **Multi-Protocol Support**: Compatible with UART, HTTP, TCP, UDP, WebSocket, FTP, MQTT, I2C, Ethernet, Bluetooth, and Zigbee.
-🔄 **Automatic Emulation**: Activates an emulator if a protocol fails due to missing hardware or connectivity issues.
-👺 **Maskpert**: A smart routing and rescue system ensuring message delivery using alternative protocols when the primary one fails.
-🧩 **Modular and Extensible**: Easy to add new protocols or customize existing ones.
-⚡ **Concurrency**: Uses threading to handle simultaneous communications without blocking.
-💪 **Resilience**: Automatic retries and failed message queues to guarantee delivery.
+- 🌐 **Multi-Protocol Support**: Compatible with UART, HTTP, TCP, UDP, WebSocket, FTP, MQTT, I2C, Ethernet, Bluetooth, and Zigbee.
+- 🔄 **Automatic Emulation**: Activates an emulator if a protocol fails due to missing hardware or connectivity issues.
+- 👺 **Maskpert**: A smart routing and rescue system ensuring message delivery using alternative protocols when the primary one fails.
+- 🧩 **Modular and Extensible**: Easy to add new protocols or customize existing ones.
+- ⚡ **Concurrency**: Uses threading to handle simultaneous communications without blocking.
+- 💪 **Resilience**: Automatic retries and failed message queues to guarantee delivery.
 
 #### What Does It Achieve?
 
@@ -25,8 +25,8 @@ What is Maskpert?
 
 **Maskpert** 👺 (Masked Expert) is LECC's intelligent failure management system:
 
-🎯 **Dynamic Routing**: Sends messages across all available protocols and confirms success with a priority protocol (HTTP or TCP by default).
-🧰 **Message Rescue**: Retrieves failed messages from a queue and resends them via available alternative protocols.
+- 🎯 **Dynamic Routing**: Sends messages across all available protocols and confirms success with a priority protocol (HTTP or TCP by default).
+- 🧰 **Message Rescue**: Retrieves failed messages from a queue and resends them via available alternative protocols.
 
 This ensures messages reach their destination even under network or hardware failures.
 
