@@ -30,6 +30,8 @@ What is Maskpert?
 
 This ensures messages reach their destination even under network or hardware failures.
 
+
+
 Installation
 ------------
 
@@ -63,6 +65,8 @@ See `requirements.txt` for the full list.
 
 Usage
 -----
+
+![TESTING](docs/demo.gif)
 
 1.  **Configuration**: Edit `protocol_configs` in `lecc.py` to adjust ports, hosts, or URLs for your environment:
     
