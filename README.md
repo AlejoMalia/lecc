@@ -66,8 +66,6 @@ See `requirements.txt` for the full list.
 Usage
 -----
 
-![TESTING](docs/demo.gif)
-
 1.  **Configuration**: Edit `protocol_configs` in `lecc.py` to adjust ports, hosts, or URLs for your environment:
     
         protocol_configs = {    "http": {"port": 5000, "host": "localhost", "url": "http://localhost:5000/api/data"},    "tcp": {"port": 65433, "host": "127.0.0.1"},    # ...}
